@@ -14,7 +14,7 @@ class MemberList
     end
 
     field :position do
-      tds[2].text.split('&').map(&:tidy)
+      tds[2].text.split(/(?:and (?=Minister)|&)/).map(&:tidy)
     end
 
     private
