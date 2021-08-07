@@ -6,10 +6,11 @@ require 'pry'
 
 class MemberList
   class Member
-    PREFIXES = %w[Dr Lt Col the Hon].freeze
-
     def name
-      unprefixed_name.sub(/,.*/, '')
+      Name.new(
+        full:     tds[1].text.tidy,
+        prefixes: %w[Dr Lt Col the Hon]
+      ).short.sub(/,.*/, '')
     end
 
     def position
@@ -20,14 +21,6 @@ class MemberList
 
     def tds
       noko.css('td')
-    end
-
-    def raw_name
-      tds[1].text.tidy
-    end
-
-    def unprefixed_name
-      PREFIXES.reduce(raw_name) { |current, prefix| current.sub(/#{prefix}.? /i, '') }
     end
   end
 
