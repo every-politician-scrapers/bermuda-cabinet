@@ -1,20 +1,24 @@
 {
     "jurisdiction": {
-      "name": "XXX",
-      "id": "Qxxx"
+      "name": "Bermuda",
+      "id": "Q23635"
+    },
+    "country": {
+      "name": "UK",
+      "id": "Q145"
     },
     "cabinet": {
-      "id": "Qxxx",
-      "start": "YYYY-MM-DD",
-      "parent": "Qxxx"
+      "id": "Q107980001",
+      "start": "2017-07-19",
+      "parent": "Q107979988"
     },
     "source": {
-        "url":   "XXX",
-        "title": "XXX",
+        "url":   "http://parliament.bm/about/view/8",
+        "title": "Members of Cabinet",
         "lang":  {
             "code": "en",
             "wikidata": "Q1860"
         }
     },
-    "agent": "every-politican-scrapers/XXX"
+    "agent": "every-politican-scrapers/bermuda-cabinet"
 }
