@@ -1,227 +1,575 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="keywords"
-    content="joomla, Joomla, joomla 1.5, wordpress 2.5, Drupal" />
-<meta name="description" content="Joomla!" />
-<meta name="generator"
-    content="Joomla! 1.5 - Open Source Content Management" />
-<meta name="generator" content="WordPress 2.5" />
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Bermuda Parliament</title>
+    <meta charset="utf-8" />
+    <meta name="Pragma" content="no-cache" />
+    <meta name="Expires" content="0" />
+    <meta http-equiv="X-XSS-Protection" content="1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/png" href="http://parliament.bm/img/favicon.png">
 
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>Waiting for the redirectiron...</title>
-        <style type="text/css">
-            body {background-color: #ffffff; font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;}
-            html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
-            span {color: #878787; font-size: 12pt;  text-align: center;}
-            h1 {color: #878787; font-size: 18pt; text-align: center;}
-            .link {margin-top: 40px;}
-            .sk-circle {margin: 80px auto;width: 100px;height: 100px;position: relative;}
-            .sk-circle .sk-child {width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
-            .sk-circle .sk-child:before {content: '';display: block;margin: 0 auto;width: 15%;height: 15%;background-color: #666666;border-radius: 100%;-webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;}
-            .sk-circle .sk-circle2 {-webkit-transform: rotate(30deg);-ms-transform: rotate(30deg);transform: rotate(30deg); }
-            .sk-circle .sk-circle3 {-webkit-transform: rotate(60deg);-ms-transform: rotate(60deg);transform: rotate(60deg); }
-            .sk-circle .sk-circle4 {-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg); }
-            .sk-circle .sk-circle5 {-webkit-transform: rotate(120deg);-ms-transform: rotate(120deg);transform: rotate(120deg); }
-            .sk-circle .sk-circle6 {-webkit-transform: rotate(150deg);-ms-transform: rotate(150deg);transform: rotate(150deg); }
-            .sk-circle .sk-circle7 {-webkit-transform: rotate(180deg);-ms-transform: rotate(180deg);transform: rotate(180deg); }
-            .sk-circle .sk-circle8 {-webkit-transform: rotate(210deg);-ms-transform: rotate(210deg);transform: rotate(210deg); }
-            .sk-circle .sk-circle9 {-webkit-transform: rotate(240deg);-ms-transform: rotate(240deg);transform: rotate(240deg); }
-            .sk-circle .sk-circle10 {-webkit-transform: rotate(270deg);-ms-transform: rotate(270deg);transform: rotate(270deg); }
-            .sk-circle .sk-circle11 {-webkit-transform: rotate(300deg);-ms-transform: rotate(300deg);transform: rotate(300deg); }
-            .sk-circle .sk-circle12 {-webkit-transform: rotate(330deg);-ms-transform: rotate(330deg);transform: rotate(330deg); }
-            .sk-circle .sk-circle2:before {-webkit-animation-delay: -1.1s;animation-delay: -1.1s; }
-            .sk-circle .sk-circle3:before {-webkit-animation-delay: -1s;animation-delay: -1s; }
-            .sk-circle .sk-circle4:before {-webkit-animation-delay: -0.9s;animation-delay: -0.9s; }
-            .sk-circle .sk-circle5:before {-webkit-animation-delay: -0.8s;animation-delay: -0.8s; }
-            .sk-circle .sk-circle6:before {-webkit-animation-delay: -0.7s;animation-delay: -0.7s; }
-            .sk-circle .sk-circle7:before {-webkit-animation-delay: -0.6s;animation-delay: -0.6s; }
-            .sk-circle .sk-circle8:before {-webkit-animation-delay: -0.5s;animation-delay: -0.5s; }
-            .sk-circle .sk-circle9:before {-webkit-animation-delay: -0.4s;animation-delay: -0.4s; }
-            .sk-circle .sk-circle10:before {-webkit-animation-delay: -0.3s;animation-delay: -0.3s; }
-            .sk-circle .sk-circle11:before {-webkit-animation-delay: -0.2s;animation-delay: -0.2s; }
-            .sk-circle .sk-circle12:before {-webkit-animation-delay: -0.1s;animation-delay: -0.1s; }
-            @-webkit-keyframes sk-circleBounceDelay {0%, 80%, 100% {-webkit-transform: scale(0);transform: scale(0);}40% {-webkit-transform: scale(1);transform: scale(1);}}
-            @keyframes sk-circleBounceDelay {0%, 80%, 100% {-webkit-transform: scale(0);transform: scale(0);}40% {-webkit-transform: scale(1);transform: scale(1);}}
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        </style>
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="http://parliament.bm/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://parliament.bm/css/style.css">
+    <!-- responsive stylesheet -->
+    <link rel="stylesheet" href="http://parliament.bm/css/responsive.css">
+    <link rel="stylesheet" href="http://parliament.bm/css/calendar.css">
+	<!-- main jQuery -->
+    <script src="http://parliament.bm/js/jquery-1.11.1.min.js"></script>
+	<script src="https://use.fontawesome.com/4ec836856f.js"></script>
+ </head>
 
-        <script type="text/javascript">
-            //<![CDATA[
-            function startCountdown() {
-                setInterval(function () {
-                    var $secondsElement = document.getElementById('seconds');
-                    var seconds = parseInt($secondsElement.innerHTML);
-                    if (seconds > 0) {
-                        seconds--;
-                        $secondsElement.innerHTML = seconds;
-                    }
-                }, 1000);
-            }
-            function browserIntegrityCheck() {
-                w = window.innerWidth;
-                h = window.innerHeight;
-                arr = [w, h, Math.floor((Math.random() * 9) + 1)];
-                arr.push(arr[0] * arr[1] * arr[2]);
-                d = new Date().getTime();
-                arr = [];
-                b = navigator.appName;
-                div1 = document.createElement('div');
-                div1.style.display = 'none';
-                div2 = document.createElement('div');
-                div2.style.display = 'none';
-                div3 = document.createElement('div');
-                div3.style.display = 'none';
-                c = document.getElementById('content');
-                c.appendChild(div1);
-                div1.appendChild(div2);
-                div2.appendChild(div3);
-                div1.removeChild(div2);
-                r = genRandString();
-                if (r.search('asd')) {
-                    r.replace('asd', 'bsd');
-                }
-            }
-
-            function redirect() {
-                setTimeout(function () {
-                    f = document.getElementById('challenge-form');
-                    f.submit();
-                }, 4000);
-            }
-            function genRandString() {
-                var text = "";
-                var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-                for (var i = 0; i < 5; i++)
-                    text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-                return text;
-            }
-            
-            (function () {
-                var a = function () {
-                    try {
-                        return !!window.addEventListener
-                    } catch (e) {
-                        return !1
-                    }
-                },
-                        b = function (b, c) {
-                            a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)
-                        };
-                b(function () {
-                    var a = document.getElementById('content').style.display = 'block';
-
-                    setTimeout(startCountdown(), 0);
-                    setTimeout(browserIntegrityCheck(), 0);
-                    setTimeout(redirect(), 0);
-
-
-                }, false);
-            })();
-            //]]>
-        </script>
-
-
-    </head>
-    <body>
-        <table width="100%" height="100%" cellpadding="20">
-            <tr>
-                <td align="center" valign="middle">
-                    <div>
-                        <noscript>
-                        <h1 style="color:#990000;">Please, turn Javascript on in your browser then reload the page.</h1>
-                        </noscript>
-                        <div id="content" style="display:none">
-
-                            <div class="sk-circle">
-                                <div class="sk-circle1 sk-child"></div>
-                                <div class="sk-circle2 sk-child"></div>
-                                <div class="sk-circle3 sk-child"></div>
-                                <div class="sk-circle4 sk-child"></div>
-                                <div class="sk-circle5 sk-child"></div>
-                                <div class="sk-circle6 sk-child"></div>
-                                <div class="sk-circle7 sk-child"></div>
-                                <div class="sk-circle8 sk-child"></div>
-                                <div class="sk-circle9 sk-child"></div>
-                                <div class="sk-circle10 sk-child"></div>
-                                <div class="sk-circle11 sk-child"></div>
-                                <div class="sk-circle12 sk-child"></div>
-                            </div>
-                            <h1>Accessing /about/view/8 securely…</h1>
-
-                            <span>This is an automatic process.  Your browser will redirect to your requested content in <span id="seconds">5</span> seconds.</span>
+<body><style> 
+ .searchvisible{
+  display:none
+  }
+  @media only screen and (min-width: 993px) {
+    .top-bar-area .search-bar .search-form input {
+  width: 400px !important;
+  }
+  .searchbtn{
+	  background: black;border:none;color: #fff;position:  relative;top: 30px !important;
+  }
+}
+  .searchbtn{
+	  background: black;border:none;color: #fff;position:  relative;left: 44%;top: 2px;
+  }
+   @media only screen and (max-width: 992px) {
+ .top-bar-area .search-bar .search-form {
+top: 31px;
+    left: 55px;
+	}
+   }
+</style>
+  <!--Start mainmenu area-->
+  <section class="mainmeu-area header-three stricky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="http://parliament.bm/">
+                                <img src="http://parliament.bm/img/resources/logo.jpg" alt="Bermuda Parliament">
+                            </a>
                         </div>
 
-                        <form id="challenge-form"  method="post">
-                            <input type="hidden" name="hash" value="9279cacadc5eff2cfead516ea170dcd3fca893f1"/>
-                            <input type="hidden" name="origin_url" value="/about/view/8"/>
-                        </form>
+                        <div class="navbar-collapse collapse">
+                            <ul class=" navigation navbar-right">
+                                <li>
+                                    <a href="http://parliament.bm/about/view/3">About parliament</a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/house/view/25">House Business</a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/senate/view/24">Senate Business</a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/hansard">Hansards</a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/committeemeeting">Committee Meetings</a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/visitor/view/24">Visitors Info</a>
+                                </li>
+								<li>
+									<button type="button" class="searchbtn" onclick=search()>
+									<i class="fa fa-search"></i>
+									</button>
+								</li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End mainmenu area-->
+
+	<section class="top-bar-area searchvisible" id="searchdiv">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-8">
+					<div class="search-bar pull-right">
+						<form action="http://parliament.bm/websearch" class="search-form mediaform " id="fullsearch" method='post'>
+							<input type="text" placeholder="Search Full website . . ." name="title" style="border: 1px solid #fff !important;">
+							<button type="submit" style="background: white;"><i class="fa fa-search"></i></button>
+						</form>  
+						<form action="http://parliament.bm/membersearch" class="search-form mediaform searchvisible" id="member" method='post'>
+							<input type="text" placeholder="Search Member . . ." name="title" style="border: 1px solid #fff !important;">
+							<button type="submit" style="background: white;"><i class="fa fa-search"></i></button>
+						</form>  
+						<form action="http://parliament.bm/billsearch" class="search-form mediaform searchvisible" id="bill" method='post'>
+							<input type="text" placeholder="Search Bill . . ." name="title" style="border: 1px solid #fff !important;">
+							<button type="submit" style="background: white;"><i class="fa fa-search"></i></button>
+						</form>  
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<select style="border: none;padding: 5px;color: #000;cursor:pointer" onchange='selectsearch(this.value)'>
+					  <option label="Full website" value="Web">Full website</option>
+					  <option label="Member" value="Member">Member</option>
+					  <option label="Bill" value="Bill">Bill</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+function search(){
+       if(($( "#searchdiv" ).hasClass( "searchvisible"))==false)
+         $("#searchdiv").addClass("searchvisible");
+	   else
+	     $("#searchdiv").removeClass("searchvisible");
+
+}
+function selectsearch(value){
+	if(value=='Web'){
+		  $("#fullsearch").removeClass("searchvisible");
+		  $("#member").addClass("searchvisible");
+		  $("#bill").addClass("searchvisible");
+	}
+	else if(value=='Member'){
+		  $("#fullsearch").addClass("searchvisible");
+		  $("#member").removeClass("searchvisible");
+		  $("#bill").addClass("searchvisible");
+	}
+	else if(value=='Bill'){
+		 $("#fullsearch").addClass("searchvisible");
+		 $("#member").addClass("searchvisible");
+		 $("#bill").removeClass("searchvisible");
+	}
+}
+</script><style>
+.article-desc img {
+    width: 100%;
+}
+.article-desc {
+    padding: 0;
+    padding-top:  2%;
+}
+
+.article-desc .col-md-4 {
+    padding-left:  0;
+}
+h4.card-title {
+    color: #0C367E;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+.article-desc .col-md-4 {
+    float: none;
+}
+.article-desc .col-md-8 {
+    width: 100%;
+	float: none;
+	    line-height: 22px;
+    text-align: justify;
+}
+.article-desc img {
+    width: 100%;
+    float: left;
+	    margin-right: 10%;
+    margin-bottom: 5%;
+}
+    ul.blocklist a:hover {
+    color: #fff;
+}
+     .yellow {
+        color: #f9c740 !important;
+    }
+li.selected-item {
+    background: #e0162b !important;
+}
+li.selected-item a{
+    color:#fff !important;
+    font-weight: bold;
+}
+
+ul.blocklist {
+    background: #e5e3e35c;
+}
+ul.blocklist a {
+    color: #000;
+}
+.hvr-bounce-to-right {
+    display: block !important;
+    }
+    .hvr-bounce-to-right:before {
+    background: #f9c740 !important;
+    }
+    li.hvr-bounce-to-right {
+    border-bottom: 1px solid #ccc;
+}
+.aboutinfo{
+padding: 70px 0px ;
+}
+.single-blog-post .col-lg-8 {
+    width: 100%;
+    float: none;
+    line-height: 22px;
+    text-align: justify;
+}
+.billdetails {
+    width: 100%;
+    float: left;
+    border-bottom: 1px dotted;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+</style>
+<section class="breadcrumb-area" style="background-image: url(http://parliament.bm/img/resources/breadcrumb-5.jpg);">
+	<div class="container text-center">
+		<h1>About</h1>
+	</div>
+</section>
+		
+<section class="blog-content-area">
+    <div class="container">
+        <div class="row">
+		
+			<div class="col-lg-3 col-md-3 col-sm-8 col-xs-12">
+                <div class="sidebar-wrapper">
+                    <!--Start single sidebar-->
+                    <div class="single-sidebar">
+                        <h3 class="title">House of Assembly</h3>
+                        <ul class="blog-categories">
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/3">General Information</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/4">Speaker</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/5">Clerk</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/6">Sergeant-at-Arms</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/7">Members of Parliament</a></li>
+						                            <li class="selected-item "><a href="http://parliament.bm/about/view/8">Members of Cabinet</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/9">Register of Interest </a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/10">Remuneration</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/11">Convening of Parliament </a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/12">History of the Legislature</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/13">Speakers</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/14">Elections</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/15">The Legislature and our Constitution</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/24">How a Bill Becomes Law</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/25">Copyright</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/26">Disclaimer</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/27">The Reproduction of Bermuda Legislation</a></li>
+						   
+                        </ul>
                     </div>
-
-
-                    <div class="link">
-                        <a href="https://bitninja.io" target="_blank" style="font-size: 12px;">Security check by BitNinja.IO</a>
+                    <!--End single sidebar-->
+					
+					<!--Start single sidebar-->
+                    <div class="single-sidebar">
+                        <h3 class="title">Senate</h3>
+                        <ul class="blog-categories">
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/16">President</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/17">Deputy Clerk</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/18">Members of Senate</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/19">History of the Senate</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/21">Senate Presidents</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/22">Register of Interest</a></li>
+						                            <li class="hvr-bounce-to-right  "><a href="http://parliament.bm/about/view/23">Remuneration</a></li>
+						   
+                        </ul>
                     </div>
-                </td>
+                    <!--End single sidebar-->
 
-            </tr>
-        </table>
-    </body>
+                </div>    
+            </div>
+			
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					
+				<div class="single-blog-post">
+				
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					
+					<h4 class="card-title">Members of Cabinet</h4> <hr>
+					
+										
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="content">
+								<p><span style="color: rgb(50, 51, 51); font-family: Arial; font-size: 13px;">Each Member of Cabinet is appointed by the Premier. All Members of Cabinet are given the title Ministers; whom are party representatives within the Legislature.&nbsp;Under our Constitution, Cabinet&nbsp;consists of the Premier and a&nbsp;maximum of&nbsp;twelve Ministers from the House of Assembly.&nbsp;A minimum of one Minister has to be appointed from the&nbsp;Senate;&nbsp;or a&nbsp;maximum of&nbsp;two.&nbsp;The minimum&nbsp;amount of Cabinet Ministers&nbsp;is seven, including the Premier.&nbsp;</span></p>
+							</div>
+						</div>
+					
+										
+					</div>
+					
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			
+												 <div class="col-md-12 article-desc">
+							<table class="table table-bordered">
+								<thead>
+								  <tr>
+																		<th>Location</th>
+																		<th>Name</th>
+									<th>Designation</th>
+								  </tr>
+								</thead>
+								<tbody>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/37">The Hon. E. David Burt, JP, MP </a></td>	
+																		<td>Premier of Bermuda</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/38">The Hon. Walter Roban, JP, MP </a></td>	
+																		<td>Deputy Premier and Minister of Home Affairs</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/39">The Hon. Wayne L. Furbert, JP, MP</a></td>	
+																		<td>Minister for the Cabinet Office</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/40">The Hon. Curtis L. Dickinson, JP, MP</a></td>	
+																		<td>Minister of Finance</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/41">The Hon. Jason Hayward, JP, MP</a></td>	
+																		<td>Minister of Labour </td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/42">The Hon. Kim Wilson, JP, MP</a></td>	
+																		<td>Minister of Health</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/43">The Hon. Kathy Lightbourne-Simmons</a></td>	
+																		<td>Attorney General & Minister of Legal Affairs</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/44">Lt. Col. the Hon. David Burch, OBE (Mil), ED, JP, MP</a></td>	
+																		<td>Minister of Public Works</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/45">The Hon. Diallo Rabain, JP, MP </a></td>	
+																		<td>Minister of Education </td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/46">The Hon. Renee Ming, JP, MP</a></td>	
+																		<td>Minister of National Security</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/47">The Hon. Tinee Furbert, JP, MP</a></td>	
+																		<td>Minister of Social Development and Seniors</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/49">The Hon. Dr. Ernest Peets</a></td>	
+																		<td>Minister of Youth, Culture and Sports</td>
+								  </tr>
+																  <tr>
+																		<td></td>
+																											<td><a href="http://parliament.bm/cabinet/view/48">The Hon. Lawrence Scott, JP, MP</a></td>	
+																		<td>Minister of Transport</td>
+								  </tr>
+																</tbody>
+							  </table>
+						 </div>
+												
+												
+									
+				</div>
+					
+                </div>
+									
+            </div>
+        </div>
+		
+    </div>
+</section>
+	
+	
+<style>
+li.selected-item {
+    background: linear-gradient(#10469E, #092758) !important;
+}
+</style>
+  <!--Start footer area-->
+  <footer class="footer-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <!--Start single footer widget-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="consultation-button ">
+                        <a href="http://parliament.bm/library" class="hvr-bounce-to-right" rel="external">Previous Parliamentary Business</a>
+                    </div>
+                    <div class="consultation-button ">
+                        <a href="http://parliament.bm/employee/" class="hvr-bounce-to-right">Parliamentary Staff</a>
+                    </div>
+                </div>
+                <!--End single footer widget-->
+                <!--Start single footer widget-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="height: 200px; overflow-y: scroll;">
+					<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CHGXm9un3hx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CHGXm9un3hx/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CHGXm9un3hx/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The Legislature of Bermuda (@legislaturebermuda)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+				
+                </div>
+                <!--End single footer widget-->
+                <!--Start single footer widget-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/BermudaLegislature/" data-tabs="timeline" data-height="200"
+                        data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"
+                        fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1827256474251292&amp;container_width=359&amp;height=200&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FBermudaLegislature%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline">
+                        <span style="vertical-align: bottom; width: 340px; height: 200px;">
+                            <iframe name="f14f947d87cf138" width="1000px" height="200px" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                                scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.12/plugins/page.php?adapt_container_width=true&amp;app_id=1827256474251292&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FbSTT5dUx9MY.js%3Fversion%3D42%23cb%3Df3ffbd2449a85cc%26domain%3Dparliament.bm%26origin%3Dhttp%253A%252F%252Fparliament.bm%252Ff15e894ffeca654%26relation%3Dparent.parent&amp;container_width=359&amp;height=200&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FBermudaLegislature%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline"
+                                style="border: none; visibility: visible; width: 340px; height: 200px;" class=""></iframe>
+                        </span>
+                    </div>
+                </div>
+                <!--End single footer widget-->
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div class="row ">
+                <section class=" top-bar-area">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="contact-info">
+                                <li class="bor-right">
+                                    <a href="http://parliament.bm/about/view/25">Copyright </a>
+                                </li>
+                                <li class="bor-right">
+                                    <a href="http://parliament.bm/about/view/26">Disclaimer </a>
+                                </li>
+                                <li>
+                                    <a href="http://parliament.bm/assets/pdf/PATI Information Statement - Office of Clerk to Legislature as Amended May 18th 2020.pdf"
+                                        target="_blank">PATI Statement </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <!--End footer area-->
 
-    <!--
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a href='index.php?option=com_dshop'>This contact form is about /components/com_dshop/ </a><br>
-<a href='index.php?option=com_jobprofile'>This contact form is about /components/com_jobprofile/ </a><br>
-<a href='index.php?option=com_fckeditor'>This contact form is about /components/com_fckeditor/ </a><br>
-<a href='index.php?option=com_acajoom'>This contact form is about /components/com_acajoom/ </a><br>
-<a href='index.php?option=com_content'>This contact form is about /components/com_content/ </a><br>
-<a href='index.php?option=com_phocagallery'>This contact form is about /components/com_phocagallery/ </a><br>
-<a href='index.php?option=com_mailto'>This contact form is about /components/com_mailto/ </a><br>
-<a href='index.php?option=com_qcontacts'>This contact form is about /components/com_qcontacts/ </a><br>
-<a href='index.php?option=com_jevents'>This contact form is about /components/com_jevents/ </a><br>
-<a href='index.php?option=com_contact'>This contact form is about /components/com_contact/ </a><br>
-<a href='index.php?option=com_search'>This contact form is about /components/com_search/ </a><br>
-<a href='index.php?option=com_virtuemart'>This contact form is about /components/com_virtuemart/ </a><br>
-<a href='index.php?option=com_google'>This contact form is about /components/com_google/ </a><br>
-<a href='index.php?option=com_oziogallery2'>This contact form is about /components/com_oziogallery2/ </a><br>
-<a href='index.php?option=fckeditor/editor/filemanager/connectors/uploadtest.html'>This contact form is about /components/fckeditor/editor/filemanager/connectors/uploadtest.html/ </a><br>
-<a href='index.php?option=FCKeditor - Uploaders Tests'>This contact form is about /components/FCKeditor - Uploaders Tests/ </a><br>
-<a href='index.php?option=phpmyadmin'>This contact form is about /components/phpmyadmin/ </a><br>
-<a href='index.php?option=phpmyadmin2'>This contact form is about /components/phpmyadmin2/ </a><br>
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+        <span class="fa fa-angle-up"></span>
+    </div>
+    <!-- bootstrap -->
+    <script src="http://parliament.bm/js/bootstrap.min.js"></script>
+	
+	
+    <!-- bx slider -->
+    <script src="http://parliament.bm/js/jquery.bxslider.min.js"></script>
+    <!-- count to -->
+    <script src="http://parliament.bm/js/jquery.countTo.js"></script>
+    <!-- owl carousel -->
+    <script src="http://parliament.bm/js/owl.carousel.min.js"></script>
 
-<a href="demo/GHH%20-%20Haxplorer/1.php?param=honey">GHDB Signature #833 (filetype:php HAXPLORER &quot;Server Files Browser&quot;)</a><br>
-<br>
-<a href="demo/GHH%20-%20PHP%20Ping/php-ping.php?param=honey">GHDB Signature #733 (&quot;Enter ip&quot; inurl:&quot;php-ping.php&quot;)</a><br>
-<br>
-<a href="demo/GHH%20-%20PHP%20Shell/phpshell.php?param=honey">GHDB Signature #365 (intitle:&quot;PHP Shell *&quot; &quot;Enable stderr&quot; filetype:php)</a><br>
-<br>
-<a href="demo/GHH%20-%20PHPBB%20Install/phpBB2/install/install.php?param=honey">GHDB Signature #935 (inurl:&quot;install/install.php&quot;)</a><br>
-<br>
-<a href="demo/GHH%20-%20PHPFM/index.php?param=honey">GHDB Signature #361 (&quot;Powered by PHPFM&quot; filetype:php -username)
-</a><br><br>
-<a href="demo/GHH%20-%20PhpSysInfo/index.php?param=honey">GHDB Signature #161 (inurl:phpSysInfo/ &quot;created by phpsysinfo&quot;)</a><br><br>
-<a href="demo/GHH%20-%20SquirrelMail/src/login.php?param=honey">GHDB Signature #1013 (&quot;SquirrelMail version 1.4.4&quot; inurl:src ext:php)</a> <br><br>
-<a href="/demo/?GHH v1.1 - WebUtil 2.7">GHDB Signature #1013 (&quot;SquirrelMail version 1.4.4&quot; inurl:src ext:php)</a> <br><br>
-<a href="/demo/?GHH v1.1 - .mdb/admin.mdb">GHDB Signature #162 (allinurl: admin mdb)</a> <br><br>
-<a href="/demo/?GHH v1.1 - .sql/create.sql">GHDB Signature #1064 (filetype:sql ("passwd values" | "password values" | "pass values" ))</a> <br><br>
-<a href="/demo/?GHH v1.1 - AIM BuddyList/BuddyList.blt">GHDB Signature #937 (filetype:blt "buddylist")</a> <br><br>
-<a href="/demo/?GHH v1.1 - File Upload Manager/">GHDB Signature #734 ("File Upload Manager v1.3" "rename to")</a> <br><br>
-<a href="/demo/?GHH v1.1 - passlist.txt/passlist.txt">GHDB Signature #58 (inurl:passlist.txt)</a> <br><br>
-<a href="/demo/?GHH v1.1 - passwd.txt/passwd.txt">GHDB Signature #1122 (wwwboard WebAdmin inurl:passwd.txt</a> <br><br>
-<a href="/demo/?GHH v1.1 - WebUtil 2.7/webutil.pl">GHDB Signature #769 (inurl:webutil.pl)</a> <br><br>
--->
+    <!-- mixit up -->
+    <script src="http://parliament.bm/js/jquery.mixitup.min.js"></script>
+
+    <!--easing -->
+    <script src="http://parliament.bm/js/jquery.easing.min.js"></script>
+
+    <script src="http://parliament.bm/js/jquery.appear.js"></script>
+	
+	    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <!--gmap-->
+    <script src="http://parliament.bm/js/gmaps.js"></script>
+    <script src="http://parliament.bm/js/map-helper.js"></script>
+	
+
+    <!-- revolution slider js -->
+    <script src="http://parliament.bm/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="http://parliament.bm/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <script src="http://parliament.bm/js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+			<script type="text/javascript" src="http://parliament.bm/js/underscore-min.js"></script>
+	<script type="text/javascript" src="http://parliament.bm/js/jstz.min.js"></script>
+	<script type="text/javascript" src="http://parliament.bm/js/calendar.js"></script>
+	<script type="text/javascript" src="http://parliament.bm/js/app.js"></script>
+	<script type="text/javascript" src="http://parliament.bm/js/groupcarosel.js"></script>
 
 
-    <!--
-<a href="mailto:csapda@web-server.hu"></a>
-<a href="mailto:csapda@astrohost.com"></a>
--->
+    <script src="http://parliament.bm/js/wow.min.js"></script>
+    <script src="http://parliament.bm/assets/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+    <!-- thm custom script -->
+    <script src="http://parliament.bm/js/custom.js"></script>
+	
+	<script>
+
+        hideandshow('caninet')
+        hideandshow('senate')
+        hideandshow('house')
+        function hideandshow(data) {
+            customerCarousel()
+            $(".inThehouse .owl-stage").css({ "transform": "translate3d(-1815px, 0px, 0px)", "transition": "0s", "width": "3630px" });
+            $(".inThehouse .owl-item").css({ "width": "565px", "margin-right": "40px" });
+            if (data == "house") {
+                $('#1').addClass('show');
+                $('#2').addClass('hide');
+                $('#3').addClass('hide');
+                $('#1').removeClass('hide');
+                $('#2').removeClass('show');
+                $('#3').removeClass('show');
+                $('#bt1').addClass('btn-active');
+                $('#bt2').removeClass('btn-active');
+                $('#bt3').removeClass('btn-active');
+            }
+            else if (data == "senate") {
+                $('#1').addClass('hide');
+                $('#2').addClass('show');
+                $('#3').addClass('hide');
+                $('#2').removeClass('hide');
+                $('#1').removeClass('show');
+                $('#3').removeClass('show');
+                $('#bt2').addClass('btn-active');
+                $('#bt1').removeClass('btn-active');
+                $('#bt3').removeClass('btn-active');
+            }
+            else if (data == "caninet") {
+                $('#1').addClass('hide');
+                $('#2').addClass('hide');
+                $('#3').addClass('show');
+                $('#3').removeClass('hide');
+                $('#2').removeClass('show');
+                $('#1').removeClass('show');
+                $('#bt3').addClass('btn-active');
+                $('#bt2').removeClass('btn-active');
+                $('#bt1').removeClass('btn-active');
+            }
+
+        }
+    </script>
+
+</body>
 
 </html>
