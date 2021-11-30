@@ -65,6 +65,9 @@
       ],
       "infoboxes": [
         {
+          "[object Object]": {
+            "text": "name\t\t\t= Edward David Burt"
+          },
           "alma_mater": {
             "text": "The George Washington University",
             "links": [
@@ -116,127 +119,6 @@
           "access-date": "17 December 2017",
           "template": "citation",
           "type": "news"
-        }
-      ]
-    },
-    {
-      "title": "Personal life",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "His mother, Merlin, is from Jamaica, while his father, Gerald, is Bermudian.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Jamaica"
-                }
-              ]
-            },
-            {
-              "text": "He is married to Kristin and has two children, Nia and Edward."
-            }
-          ]
-        },
-        {
-          "sentences": [
-            {
-              "text": "Burt attended the George Washington University in Washington, D.C., double majoring in finance and information systems and attaining a master's degree in information systems development.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "George Washington University"
-                },
-                {
-                  "type": "internal",
-                  "page": "Washington, D.C."
-                }
-              ]
-            },
-            {
-              "text": "During his time at GW, he served as president of the George Washington University Student Association.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "George Washington University Student Association"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "date": "November 2020",
-          "template": "cn"
-        }
-      ],
-      "references": [
-        {
-          "url": "http://jamaica-gleaner.com/article/news/20170723/new-bermuda-premier-miracle-baby",
-          "title": "New Bermuda Premier A 'Miracle Baby'",
-          "work": "The Gleaner",
-          "date": "23 July 2017",
-          "access-date": "17 December 2017",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "url": "https://www.gwhatchet.com/2017/07/21/alumnus-sworn-in-as-youngest-premier-of-bermuda/",
-          "title": "GW Hatchet - Alumnus Sworn in as Youngest Premier of Bermuda",
-          "first": "Cayla",
-          "last": "Harris",
-          "date": "21 July 2017",
-          "access-date": "17 December 2017",
-          "template": "citation",
-          "type": "news"
-        }
-      ]
-    },
-    {
-      "title": "See also",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": []
-        }
-      ],
-      "lists": [
-        [
-          {
-            "text": "List of current heads of government in the United Kingdom and dependencies",
-            "links": [
-              {
-                "type": "internal",
-                "page": "List of current heads of government in the United Kingdom and dependencies"
-              }
-            ]
-          }
-        ]
-      ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "templates": [
-        {
-          "template": "reflist"
-        },
-        {
-          "template": "commons category"
-        },
-        {
-          "template": "wikiquote"
-        },
-        {
-          "template": "premiers of bermuda"
-        },
-        {
-          "template": "bot and crown dependency heads of governments"
-        },
-        {
-          "template": "bermuda-politician-stub"
         }
       ]
     }
