@@ -65,12 +65,103 @@
       ],
       "infoboxes": [
         {
+          "honorific-prefix": {
+            "text": "The Honourable",
+            "links": [
+              {
+                "type": "internal",
+                "page": "The Honourable"
+              }
+            ]
+          },
+          "name": {
+            "text": "Edward David Burt"
+          },
+          "honorific-suffix": {
+            "text": "MP",
+            "links": [
+              {
+                "text": "MP",
+                "type": "internal",
+                "page": "House of Assembly of Bermuda"
+              }
+            ]
+          },
+          "image": {
+            "text": "Edward David Burt 1 (cropped).jpg"
+          },
+          "office1": {
+            "text": "13th Premier of Bermuda",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Premier of Bermuda"
+              }
+            ]
+          },
+          "term_start1": {
+            "text": "19 July 2017"
+          },
+          "monarch1": {
+            "text": "Elizabeth II",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Elizabeth II"
+              }
+            ]
+          },
+          "2blankname1": {
+            "text": "Governor"
+          },
+          "2namedata1": {
+            "text": "John Rankin Rena Lalgie",
+            "links": [
+              {
+                "text": "John Rankin",
+                "type": "internal",
+                "page": "John Rankin (diplomat)"
+              },
+              {
+                "type": "internal",
+                "page": "Rena Lalgie"
+              }
+            ]
+          },
+          "predecessor1": {
+            "text": "Michael Dunkley",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Michael Dunkley"
+              }
+            ]
+          },
+          "birth_place": {
+            "text": "Bermuda",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Bermuda"
+              }
+            ]
+          },
           "alma_mater": {
             "text": "The George Washington University",
             "links": [
               {
                 "type": "internal",
                 "page": "The George Washington University"
+              }
+            ]
+          },
+          "party": {
+            "text": "Progressive Labour Party",
+            "links": [
+              {
+                "text": "Progressive Labour Party",
+                "type": "internal",
+                "page": "Progressive Labour Party (Bermuda)"
               }
             ]
           }
