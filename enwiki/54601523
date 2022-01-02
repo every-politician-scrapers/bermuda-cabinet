@@ -166,48 +166,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "url": "http://www.jamaicaobserver.com/latestnews/38-y-o_David_Burt_sworn_in_as_Bermuda%26%238217;s_new_premier?profile=1228",
-          "title": "38-y-o David Burt sworn in as Bermuda's new premier",
-          "work": "The Jamaica Observer",
-          "date": "19 July 2017",
-          "access-date": "17 December 2017",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "url": "https://www.royalgazette.com/news/article/20201124/louise-franks-107-and-the-premier-celebrate-their-shared-birthday-at-the-kemh/",
-          "title": "Louise Franks, 107, and Premier celebrate their shared birthday at KEMH",
-          "work": "The Royal Gazette",
-          "date": "24 November 2002",
-          "access-date": "25 November 2020",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "title": "The Hon E. David Burt, JP, MP",
-          "url": "http://parliament.bm/E._David_Burt.aspx",
-          "publisher": "Bermuda Parliament",
-          "access-date": "17 December 2017",
-          "archive-url": "https://web.archive.org/web/20170826235039/http://parliament.bm/E._David_Burt.aspx",
-          "archive-date": "26 August 2017",
-          "url-status": "dead",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "url": "http://www.royalgazette.com/politics/article/20170720/burt-pledges-to-govern-for-all-bermuda",
-          "title": "Burt Pledges to Govern for All Bermuda",
-          "first": "Sarah",
-          "last": "Lagan",
-          "work": "Royal Gazette",
-          "date": "20 July 2017",
-          "access-date": "17 December 2017",
-          "template": "citation",
-          "type": "news"
-        }
       ]
     }
   ]
