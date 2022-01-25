@@ -115,13 +115,8 @@
             "text": "Governor"
           },
           "2namedata1": {
-            "text": "John Rankin Rena Lalgie",
+            "text": "Rena Lalgie",
             "links": [
-              {
-                "text": "John Rankin",
-                "type": "internal",
-                "page": "John Rankin (diplomat)"
-              },
               {
                 "type": "internal",
                 "page": "Rena Lalgie"
