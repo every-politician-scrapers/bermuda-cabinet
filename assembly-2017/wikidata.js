@@ -7,7 +7,7 @@ module.exports = function () {
   let until = meta.end  ? `"${meta.end}T00:00:00Z"^^xsd:dateTime` : "NOW()"
 
   return `SELECT DISTINCT ?item ?itemLabel ?party ?partyLabel ?area ?areaLabel 
-                          ?startDate ?endDate (STRAFTER(STR(?ps), STR(wds:)) AS ?psid)
+                 ?startDate ?endDate ?gender (STRAFTER(STR(?ps), STR(wds:)) AS ?psid)
     WITH {
       SELECT DISTINCT ?item ?position ?startNode ?endNode ?ps
       WHERE {
@@ -62,6 +62,11 @@ module.exports = function () {
         ) AS ?endDate
       )
 
+      OPTIONAL {
+        ?item wdt:P21 ?sog .
+        OPTIONAL { ?sog rdfs:label ?gender FILTER(LANG(?gender)="en") }
+      }
+      OPTIONAL { ?item wdt:P21/rdfs:label ?gender FILTER (LANG(?gender)="en") }
       OPTIONAL { ?ps pq:P4100 ?party }
       OPTIONAL { ?ps pq:P768  ?area  }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "${meta.lang}". }

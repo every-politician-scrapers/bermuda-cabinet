@@ -1,37 +1,37 @@
-@@,itemlabel,item,party,partylabel
-+++,Ben Smith,,Q7092478,OBA
-+++,Christopher Famous,,Q1565799,PLP
-->,Craig Cannonier,Q1281098,Q7092478,One Bermuda Alliance->OBA
-+++,David Burch,,Q1565799,PLP
-+++,David Burt,Q33120852,Q1565799,PLP
-+++,Dennis Lister,,Q1565799,PLP
-+++,Dennis Lister III,,Q1565799,PLP
-+++,Derrick Burgess,,Q1565799,PLP
-+++,Diallo Rabain,Q42665891,Q1565799,PLP
-+++,Grant Gibbons,,Q7092478,OBA
-+++,Jamahl Simmons,,Q1565799,PLP
-+++,Jeanne Atherden,,Q7092478,OBA
-+++,Jeff Baron,,Q7092478,OBA
-+++,Kim Swan,Q6409462,Q1565799,PLP
-+++,Kim Wilson,,Q1565799,PLP
-+++,Lawrence Scott,,Q1565799,PLP
-+++,Leah Scott,,Q7092478,OBA
-+++,Lovitta Foggo,,Q1565799,PLP
-+++,Michael Dunkley,Q17626860,Q7092478,OBA
-+++,Michael Scott,,Q1565799,PLP
-+++,Michael Weeks,,Q1565799,PLP
-+++,N. Cole Simons,,Q7092478,OBA
-+++,Neville Tyrrell,,Q1565799,PLP
-+++,Patricia Gordon Pamplin,,Q7092478,OBA
-+++,Renee Ming,,Q1565799,PLP
-+++,Rolfe Commissiong,,Q1565799,PLP
-+++,Scott Simmons,,Q1565799,PLP
-+++,Susan Jackson,,Q7092478,OBA
-+++,Sylvan Richards Jr.,,Q7092478,OBA
-+++,Tinee Furbert,,Q1565799,PLP
-+++,Trevor Moniz,Q16732783,Q7092478,OBA
-+++,Walter Roban,,Q1565799,PLP
-+++,Walton Brown,,Q1565799,PLP
-+++,Wayne Caines,Q56522655,Q1565799,PLP
-+++,Wayne Furbert,,Q1565799,PLP
-+++,Zane DeSilva,,Q1565799,PLP
+@@,item,itemlabel,party,gender
+->,Q110993726->NULL,Ben Smith,Q7092478,male
+->,Q110993794->NULL,Christopher Famous,Q1565799,male
+->,Q1281098,Craig Cannonier,Q7092478,male
+->,Q107980114->NULL,David Burch,Q1565799,male
+->,Q109517094->NULL,Dennis Lister,Q1565799,male
++++,,Dennis Lister III,Q1565799,male
+->,Q5262984->NULL,Derrick Burgess,Q1565799,male
+->,Q42665891,Diallo Vincent Rabain->Diallo Rabain,Q1565799,male
+->,Q33120852,E. David Burt->David Burt,Q1565799,male
+->,Q110993718->NULL,Grant Gibbons,Q7092478,male
+->,Q107980343->NULL,Jamahl Simmons,Q1565799,male
+->,Q56486487->NULL,Jeanne Atherden,Q7092478,female
+->,Q110993743->NULL,Jeff Baron,Q7092478,male
+->,Q6409462,Kim Swan,Q1565799,male
+->,Q94952755->NULL,Kim Wilson,Q1565799,female
+->,Q107980091->NULL,Lawrence Scott,Q1565799,male
+->,Q110993772->NULL,Leah Scott,Q7092478,female
+->,Q110993774->NULL,Lovitta Foggo,Q1565799,female
+->,Q17626860,Michael Dunkley,Q7092478,male
+->,Q110993778->NULL,Michael Scott,Q1565799,male
++++,,Michael Weeks,Q1565799,male
+->,Q110993785->NULL,N. Cole Simons,Q7092478,male
+->,Q110993797->NULL,Neville Tyrrell,Q1565799,male
+->,Q110993786->NULL,Patricia Gordon Pamplin,Q7092478,female
+->,Q107980085->NULL,Renee Ming,Q1565799,female
+->,Q110993798->NULL,Rolfe Commissiong,Q1565799,male
+->,Q110993800->NULL,Scott Simmons,Q1565799,male
+->,Q110993790->NULL,Susan Jackson,Q7092478,female
+->,Q110993792->NULL,Sylvan Richards Jr.,Q7092478,male
+->,Q107980082->NULL,Tinee Furbert,Q1565799,female
+->,Q16732783,Trevor Moniz,Q7092478,male
+->,Q107980143->NULL,Walter Roban,Q1565799,male
+->,Q110993801->NULL,Walton Brown,Q1565799,male
+->,Q56522655,Wayne Caines,Q1565799,male
+->,Q110993802->NULL,Wayne Furbert,Q1565799,male
+->,Q107980320->NULL,Zane DeSilva,Q1565799,NULL->male
