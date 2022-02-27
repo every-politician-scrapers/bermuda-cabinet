@@ -59,7 +59,7 @@
         },
         {
           "country": "GBR-BM",
-          "post-noms": "MP",
+          "post-noms": "JP MP",
           "template": "post-nominals"
         }
       ],
@@ -78,8 +78,13 @@
             "text": "Edward David Burt"
           },
           "honorific-suffix": {
-            "text": "MP",
+            "text": "JP MP",
             "links": [
+              {
+                "text": "JP",
+                "type": "internal",
+                "page": "Justice of the Peace"
+              },
               {
                 "text": "MP",
                 "type": "internal",
