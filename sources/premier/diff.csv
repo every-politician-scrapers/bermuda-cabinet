@@ -2,15 +2,7 @@
 +++,Sir Henry Tucker,Q5729335,1968-06-10,1971-12-29
 +++,Sir Edward Richards,Q5345044,1971-12-29,1973-04-18
 +++,Sir Edward Richards,Q5345044,1973-04-18,1975-12-29
-+++,John Sharpe,Q17427995,1975-12-29,1977-08-30
-+++,David Gibbons,Q16588777,1977-08-30,1982-01-15
-+++,John Swan,Q3182553,1982-01-15,1995-08-25
-+++,David Saul,Q28497658,1995-08-25,1997-03-27
-+++,Pamela Gordon,Q22959282,1997-03-27,1998-11-10
-+++,Jennifer Smith,Q6178578,1998-11-10,2003-07-29
-+++,Alex Scott,Q8004288,2003-07-29,2006-10-30
-+++,Ewart Brown,Q1291036,2006-10-30,2010-10-29
-+++,Paula Cox,Q3082392,2010-10-29,2012-12-18
-+++,Craig Cannonier,Q1281098,2012-12-18,2014-05-19
-+++,Michael Dunkley,Q17626860,2014-05-19,2017-07-19
+->,John Henry Sharpe->John Sharpe,Q17427995,1975-12-29,1977-08-30
+->,Jennifer M. Smith->Jennifer Smith,Q6178578,1998-11-10,2003-07-29
+->,William Alexander Scott->Alex Scott,Q8004288,2003-07-29,2006-10-30
 ->,E. David Burt->Edward David Burt,Q33120852,2017-07-19,
