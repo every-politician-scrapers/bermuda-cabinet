@@ -1,7 +1,6 @@
 wdid,name,wdLabel,gender,dob,dobPrecision,source,sourceDate,pid,position,start,psid
 Q107980074,Wayne L. Furbert,Wayne L. Furbert,male,,,http://parliament.bm/about/view/8,2021-08-07,Q107980075,Minister for the Cabinet Office,2017-07-19,Q107980074-4894C8E4-A30D-4F53-BD1F-C68DACE7053B
 Q107980082,Tinee Furbert,Tinee Furbert,female,,,http://parliament.bm/about/view/8,2021-08-07,Q107980083,Minister of Social Development and Seniors,2020-10-08,Q107980082-E7877100-B7D8-46C8-8BC4-516EEBDCB6EF
-Q107980085,Renee Ming,Renee Ming,female,,,http://parliament.bm/about/view/8,2021-08-07,Q107980087,Minister of National Security,2020-07-16,Q107980085-08C064F6-28B5-49D7-8BDF-450396A514AB
 Q107980091,Lawrence Scott,Lawrence Scott,male,,,http://parliament.bm/about/view/8,2021-08-07,Q107980092,Minister of Transport,2020-10-08,Q107980091-1ADC40D4-5B17-45C1-ACB4-EF6D7A57B097
 Q107980095,Kathy Lightbourne-Simmons,Kathy Lightbourne-Simmons,female,,,http://parliament.bm/about/view/8,2021-08-07,Q107980098,Minister of Legal Affairs,2017-07-19,Q107980095-5B09831F-7B80-45A7-9F8C-FC068985B2FE
 Q107980095,Kathy Lightbourne-Simmons,Kathy Lightbourne-Simmons,female,,,http://parliament.bm/about/view/8,2021-08-07,Q107980099,Attorney General,2017-07-19,Q107980095-E96D263D-09FE-4D72-A989-C6373BEAC315
@@ -12,6 +11,8 @@ Q107980114,David Burch,David Burch,male,,,http://parliament.bm/about/view/8,2021
 Q107980143,Walter Roban,Walter Roban,male,,,http://parliament.bm/about/view/8,2021-08-07,Q107980147,Deputy Premier,2017-07-19,Q107980143-B9311F67-AD16-4F50-B8D6-C6D298EF4171
 Q107980143,Walter Roban,Walter Roban,male,,,http://parliament.bm/about/view/8,2021-08-07,Q107980146,Minister of Home Affairs,2017-07-19,Q107980143-D31470F3-0386-4535-BA5E-FD9EA72113DE
 Q110097256,Alison Crocket,Alison Crocket,female,,,,,Q110092437,Deputy Governor of Bermuda,2018-07-01,Q110097256-7A1E9CCC-66E9-4360-89DB-946995954476
+Q110993896,Michael Weeks JP,Michael Weeks,male,,,http://parliament.bm/about/view/8,2022-04-29,Q107980087,Minister of National Security,2022-04-04,Q110993896-A88CE759-06A3-4A51-B5D5-C9A1275C8C3A
+Q111752726,Vance Campbell,Vance Campbell,,,,,,Q111752729,Minister of Tourism,2022-04-04,Q111752726-4DC24A92-C8F4-4D2F-A5CA-68DA5001CDC6
 Q33120852,E. David Burt,E. David Burt,male,1978-11-23,11,http://parliament.bm/about/view/8,2021-08-07,Q56611785,Premier of Bermuda,2017-07-19,Q33120852-8866BB52-AA67-4EBE-AB02-7CA2CF414C4B
 Q33120852,E. David Burt,E. David Burt,male,1978-11-23,11,,,Q107980117,Minister of Finance,2022-02-14,Q33120852-9e97a256-44b9-dc04-87ee-d6fd9ca37e63
 Q94952755,Kim Wilson,Kim Wilson,female,,,http://parliament.bm/about/view/8,2021-08-07,Q107980094,Minister of Health,2017-07-19,Q94952755-29B43AE9-C5FF-4A4D-885D-8C60428D4A85
