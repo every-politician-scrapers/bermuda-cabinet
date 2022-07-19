@@ -1,0 +1,221 @@
+{
+  "title": "Rena Lalgie",
+  "pageID": 64650577,
+  "categories": [
+    "Year of birth missing (living people)",
+    "Living people",
+    "British civil servants",
+    "Black British people",
+    "Black British women",
+    "Governors of Bermuda",
+    "21st-century British women politicians"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Rena Lalgie is a British civil servant.",
+              "formatting": {
+                "bold": [
+                  "Rena Lalgie"
+                ]
+              }
+            },
+            {
+              "text": "It was announced in June 2020 that Lalgie would take up office as Governor of Bermuda at the end of the year.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Governor of Bermuda"
+                }
+              ]
+            },
+            {
+              "text": "She is the first woman, and the first person of African heritage, to be appointed governor of Bermuda.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Bermuda"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "date": "April 2022",
+          "template": "use dmy dates"
+        }
+      ],
+      "infoboxes": [
+        {
+          "honorific-prefix": {
+            "text": "Her Excellency",
+            "links": [
+              {
+                "text": "Her Excellency",
+                "type": "internal",
+                "page": "Excellency"
+              }
+            ]
+          },
+          "name": {
+            "text": "Rena Lalgie"
+          },
+          "image": {
+            "text": "S300 Rena Lalgie photo (cropped).jpg"
+          },
+          "caption": {
+            "text": "Rena Lalgie in 2020"
+          },
+          "office": {
+            "text": "Governor of Bermuda",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Governor of Bermuda"
+              }
+            ]
+          },
+          "monarch": {
+            "text": "Elizabeth II",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Elizabeth II"
+              }
+            ]
+          },
+          "predecessor": {
+            "text": "John Rankin",
+            "links": [
+              {
+                "text": "John Rankin",
+                "type": "internal",
+                "page": "John Rankin (diplomat)"
+              }
+            ]
+          },
+          "term_start": {
+            "text": "14 December 2020"
+          },
+          "premier": {
+            "text": "Edward David Burt",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Edward David Burt"
+              }
+            ]
+          }
+        }
+      ],
+      "references": [
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "Career",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Lalgie has worked in various roles for the Home Office, the Cabinet Office, and the Department for Business, Innovation and Skills.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Home Office"
+                },
+                {
+                  "type": "internal",
+                  "page": "Cabinet Office"
+                },
+                {
+                  "type": "internal",
+                  "page": "Department for Business, Innovation and Skills"
+                }
+              ]
+            },
+            {
+              "text": "She was director of operations at UK Trade & Investment, now the Department for International Trade.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "UK Trade & Investment"
+                },
+                {
+                  "type": "internal",
+                  "page": "Department for International Trade"
+                }
+              ]
+            },
+            {
+              "text": "She then became head of the Office of Financial Sanctions Implementation (OFSI), created within the UK Treasury in 2016 to implement and enforce financial sanctions.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Office of Financial Sanctions Implementation"
+                },
+                {
+                  "type": "internal",
+                  "page": "UK Treasury"
+                },
+                {
+                  "text": "financial sanctions",
+                  "type": "internal",
+                  "page": "financial sanctions"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        }
+      ]
+    }
+  ]
+}
